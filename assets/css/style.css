@@ -1,0 +1,545 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url('/Users/homeone/Downloads/complete/background2.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#home h1 {
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35px;
+    color: rgb(249, 249, 250);
+}
+
+#home p {
+    color: rgb(0, 0, 0);
+    margin: 15px 0px 0px;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+}
+
+#home p span {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+#header {
+    height: 80px;
+    z-index: 997;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 20px 0px;
+    -webkit-box-shadow: rgba(127, 137, 161, 0.298039) 0px 0px 30px;
+    box-shadow: rgba(127, 137, 161, 0.298039) 0px 0px 30px;
+}
+
+#header.header-scrolled,
+#header.header-pages {
+    height: 60px;
+    padding: 10px 0px;
+}
+
+#header .logo h1 {
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+    color: rgb(0, 54, 111);
+    text-decoration: none;
+}
+
+#header .logo img {
+    padding: 0px;
+    margin: 7px 0px;
+    max-height: 26px;
+}
+
+.main-pages {
+    margin-top: 60px;
+}
+
+.section-header h3 {
+    font-size: 36px;
+    color: rgb(40, 61, 80);
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: rgb(85, 104, 119);
+    width: 50%;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    color: rgb(255, 255, 255);
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+    z-index: 11;
+    background: rgb(45, 113, 161);
+}
+
+.back-to-top i {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 14.5px;
+}
+
+#about {
+    padding: 60px 0px;
+    background: rgb(255, 255, 255);
+}
+
+#about .about-container .title {
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#about .about-container p {
+    line-height: 26px;
+}
+
+#about .about-container p:last-child {
+    margin-bottom: 0px;
+}
+
+#about .about-container .icon-box {
+    padding: 0px 0px 30px;
+    background: rgb(255, 255, 255);
+}
+
+#about .about-container .icon-box .icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 123, 255);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgb(255, 255, 255);
+}
+
+#about .about-container .icon-box .icon i {
+    color: rgb(0, 123, 255);
+    font-size: 24px;
+}
+
+#about .about-container .icon-box:hover .icon {
+    background: rgb(0, 123, 255);
+}
+
+#about .about-container .icon-box:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+#about .about-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#about .about-container .icon-box .title a {
+    color: rgb(40, 61, 80);
+}
+
+#about .about-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+#about .about-extra {
+    padding-top: 60px;
+}
+
+#about .about-extra h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#services a {
+    color: rgb(5, 99, 187);
+}
+
+#services a:hover {
+    color: rgb(6, 125, 237);
+    text-decoration: none;
+}
+
+#services h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway, sans-serif;
+}
+
+#services #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9997;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+#services {
+    padding: 60px 0px;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services .icon-box {
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 30px 2px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 30px 2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    text-align: center;
+    padding: 70px 20px 80px;
+    border-color: rgb(255, 255, 255);
+    z-index: 1;
+    background: rgb(255, 255, 255);
+}
+
+.services .icon-box:hover {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+.services .icon-box::before {
+    content: "";
+    position: absolute;
+    right: -60px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+    background: rgb(225, 240, 250);
+}
+
+.services .icon-box:hover::before {
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    background: rgb(52, 152, 219);
+}
+
+.services .icon-box .icon {
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.services .icon-box .icon i {
+    font-size: 36px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+}
+
+.services .icon-box .icon svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.services .icon-box .icon svg path {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    fill: rgb(245, 245, 245);
+}
+
+.services .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0px 15px;
+    font-size: 22px;
+}
+
+.services .icon-box h4 a {
+    color: rgb(69, 80, 91);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title p {
+    margin-bottom: 0px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: rgb(69, 80, 91);
+}
+
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    bottom: 1px;
+    left: calc(50% - 60px);
+    background: rgb(221, 221, 221);
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    bottom: 0px;
+    left: calc(50% - 20px);
+    background: rgb(5, 99, 187);
+}
+
+.services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-blue i {
+    color: rgb(71, 174, 255);
+}
+
+.services .iconbox-blue:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-blue:hover .icon path {
+    fill: rgb(71, 174, 255);
+}
+
+.services .iconbox-orange i {
+    color: rgb(255, 167, 110);
+}
+
+.services .iconbox-orange:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-orange:hover .icon path {
+    fill: rgb(255, 167, 110);
+}
+
+.services .iconbox-pink i {
+    color: rgb(232, 3, 104);
+}
+
+.services .iconbox-pink:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-pink:hover .icon path {
+    fill: rgb(232, 3, 104);
+}
+
+.services .iconbox-yellow i {
+    color: rgb(255, 187, 44);
+}
+
+.services .iconbox-yellow:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-yellow:hover .icon path {
+    fill: rgb(255, 187, 44);
+}
+
+.services .iconbox-red i {
+    color: rgb(255, 88, 40);
+}
+
+.services .iconbox-red:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-red:hover .icon path {
+    fill: rgb(255, 88, 40);
+}
+
+.services .iconbox-teal i {
+    color: rgb(17, 219, 207);
+}
+
+.services .iconbox-teal:hover .icon i {
+    color: rgb(255, 255, 255);
+}
+
+.services .iconbox-teal:hover .icon path {
+    fill: rgb(17, 219, 207);
+}
+
+@media (min-width: 992px) {
+    #home {
+        padding-left: 160px;
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+}
+
+@media (max-width: 992px) {
+    #home {
+        text-align: center;
+    }
+    #home h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    #home p {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    #header .logo h1 {
+        font-size: 28px;
+        padding: 8px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    #services #header {
+        width: 300px;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(230, 233, 236);
+        left: -300px;
+        background: rgb(255, 255, 255);
+    }
+}
+
+@media (min-width: 992px) {
+    #services #main {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-header p {
+        width: 100%;
+    }
+}
